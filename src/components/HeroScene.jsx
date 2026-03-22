@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useMemo } from "react";
 
 function OrbModel() {
-  const { scene } = useGLTF("/models/roblox.glb");
+  const { scene } = useGLTF("/models/abstract.glb");
   const model = useMemo(() => scene.clone(), [scene]);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export function HeroScene() {
             <directionalLight position={[4, 5, 3]} intensity={2.1} />
             <directionalLight position={[-3, -2, 4]} intensity={1.1} color="#8da9d9" />
             <Suspense fallback={null}>
-              <Bounds fit clip margin={1.16}>
+              <Bounds fit clip margin={0.99}>
                 <OrbModel />
               </Bounds>
               <Environment preset="studio" />
