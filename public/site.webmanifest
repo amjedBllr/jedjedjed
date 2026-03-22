@@ -1,0 +1,16 @@
+{
+  "name": "Digital Identity Portfolio",
+  "short_name": "Identity",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020305",
+  "theme_color": "#020305",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Static assets for the portfolio should live in this folder.
+Use this directory for icons, local project media, and other public files served directly by Vite.
